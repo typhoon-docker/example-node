@@ -1,0 +1,20 @@
+{
+  "name": "example-node",
+  "version": "1.0.0",
+  "description": "Test example for Typhoon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typhoon-docker/example-node.git"
+  },
+  "author": "sade96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/typhoon-docker/example-node/issues"
+  },
+  "homepage": "https://github.com/typhoon-docker/example-node#readme"
+}
