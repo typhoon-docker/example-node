@@ -2,7 +2,12 @@ const http = require("http");
 const os = require("os");
 const port = 3000;
 
-const hash = require("child_process").execSync("git rev-parse HEAD");
+let hash;
+try {
+  hash = require("child_process").execSync("git rev-parse HEAD");
+} catch (ex) {
+  hash = "(git not found)";
+}
 
 http
   .createServer(function(request, response) {
